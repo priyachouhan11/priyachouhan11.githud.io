@@ -492,3 +492,38 @@ img {
   margin-top: 3rem !important;
 }
 
+/* Start portfolio */
+.portfolio img
+{
+    width: 50%;
+    cursor: pointer;
+}
+
+.portfolio .last-img
+{
+    margin-bottom: 20px;
+}
+@media (min-width: 992px) {
+  .col-md-4 {
+      width: 33.33333333%;
+      float: left;
+  }
+}
+@media (min-width: 1200px) {
+  .portfolio img {
+      width: 100%;
+      cursor: pointer;
+  }
+}
+img {
+  vertical-align: middle;
+}
+.col-md-4 .col-sm-4{
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  box-sizing: border-box;
+}
+
+/* end Portfolio */
